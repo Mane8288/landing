@@ -2,6 +2,55 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r3321
+
+* T4
+  * Plugin loading
+  * Performance improvements
+  * SP gsc actor callbacks fixed and reenabled
+  * Replacefunc works with functions called by the engine
+  * Fixed gsc animation desyncing (Any GSC that uses animations and animtrees NEED to be synced between client and server, AND loaded in the same order!)
+  * Fixed terminal script errors, instead of freezing or crashing, it'll sys_error or com_error (g_spawn, exceeded variable errors, etc)
+  * Fixed child variable allocation script location logging in `scriptUsage` cmd
+  * SP fixed a crash when loading a save with different scripts
+  * devlogs will log to logfile, even when developer is 0
+  * SP fixed `Server is full` error
+  * SP proper `g_password` support, clients must set their `password` to the server's `g_password` (like in MP)
+  * Fixed mod_download menu from not closing when joining a server
+  * Fixed opening friends list when clicking serverlist in-game menu
+  * SP `sv_reconnectClientsOnRotate` dvar, fixes a crash where some custom maps crashes the client when map_rotating
+  * Fixed clients being stuck in connecting forever until they disconnect
+  * GetFunction no longer is case sensitive
+  * FS_ReadFile com_error fix for realism mod
+  * Improved loading times for dedis
+  * T4SP improved custom map dedi support with custom spawning logic (cheesecube unlimited and octogonal should work)
+  * Added `all_gsc_errors_non_terminal` dvar
+  * Improved serverlist inlcuding showing round number, aimassist, gametype, and map names
+  * sv_cheats and cheat dvars are cleaned up upon disconnecting
+  * Clients can no longer adjust replicated dvars
+  * Enabled aim_lockon for controller's aimassist
+  * Added `sv_allowAimAssist` and `cl_allowAimAssist` dvars
+  * General security and stability fixes
+
+* T5
+  * Fixed SP crash related to weapons on custom maps
+  * Changed script runtime errors to no longer fatal error
+  * Added game log support in SP
+  * Fixed fs_buildospath log
+
+* IW5
+  * Add support for double bounce `sv_enablebounces 2` [Link](https://forum.plutonium.pw/topic/20021/feature-20-iw5-double-bouncing)
+  * Increased zone memory size to support larger custom maps
+  * Fixed crash for clients when server would send invalid weapon index
+  * Add support to load user map arena files from relative directory
+  * Fixed offline LAN support
+  * Fixed internal file system path rework
+
+* T6
+  * Used correct dvars for aim assist
+  * Fixed offline LAN support
+
+
 ## r3266
 
 * T5
