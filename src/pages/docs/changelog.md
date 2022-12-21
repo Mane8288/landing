@@ -2,6 +2,14 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r3327
+
+* T4
+  * Controller deadzone console command no longer cheat protected
+
+* IW5
+  * FastDL feature fixed after bug introduced in r3321
+
 ## r3321
 
 * T4
@@ -49,7 +57,6 @@ This is a list of Plutonium updates, and the changes they introduced. New update
 * T6
   * Used correct dvars for aim assist
   * Fixed offline LAN support
-
 
 ## r3266
 
