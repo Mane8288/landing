@@ -1,6 +1,14 @@
 # T6 GSC Compiler Limitations
 
-The compiler used for BO2 has some limitations and flaws that you will most likely run into at one point. Most of these are documented and are easy to work around if you just follow the correct way to do whatever you are doing. So, let's look at some.
+The **old** compiler used for BO2 had some limitations and flaws which is why we highly recommend that you switch to [GSC Tool](https://github.com/xensik/gsc-tool#gsc-tool) instead.  
+Most of these flaws are documented and are easy to work around if you just follow the correct way to do whatever you are doing by reading below, but to avoid any headache or extra work, again, we highly recommend ditching the old compiler and switching to the new compiler.  
+
+<Alert variant="warning">
+
+This page is here for reference, mostly to explain why switching to the new compiler is highly recommended.  
+These issues are no longer present when using the compiler recommended in our modding documentation.
+
+</Alert>
 
 **(Credits to [JezuzLizard](https://github.com/JezuzLizard) for documenting these)**
 

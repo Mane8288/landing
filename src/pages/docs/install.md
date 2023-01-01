@@ -31,7 +31,7 @@ If you already have the game installed from Steam or had a previous update of Pl
 
 This section will cover downloading a copy of BO2. Please skip this section if you already have a copy of the game.
 
-**Please note we highly recommend buying the game if you do not own it, it is the best way to get a copy of the game files that are up to date and not corrupt or changed in some way. Key sites will give you a decent discount in 2021.**
+**Please note we highly recommend buying the game if you do not own it, it is the best way to get a copy of the game files that are up to date and not corrupt or changed in some way. Key sites will give you a decent discount.**
 
 1. From the windows file explorer navigate to My PC, then to **Local Disc (C:)** and create a new folder called `Games`
 
@@ -66,7 +66,10 @@ Once it's done you will have your copy of the game downloaded, here is an exampl
 
 <Alert variant="warning">
 
-Skip these steps if you installed the game via the torrent. This is for people who used Steam, but do not own any DLC.
+If you installed the game via the torrent from the instructions above then [skip to the setup in the launcher](#setting-up-t6-with-the-plutonium-launcher).  
+**This is only for people who use their Steam files, but do not own any DLC**.  
+This only downloads the DLC maps. You cannot play the game only with these files. If you want to download the game then [read above](#installing-the-base-game-bo2)!  
+Keep in mind that if a server rotates a DLC map and you don't have them installed you will be kicked so if you can it's probably better to install them.  
 
 </Alert>
 
@@ -89,7 +92,7 @@ You will know it's done when the progress changes to `100%` and the status chang
 
 ### Setting up T6 with the Plutonium Launcher
 
-Navigate to Black Ops 2 and then hit **SETUP** and then select your Black Ops 2 game folder.  
+Navigate to Black Ops 2, click on **SETUP** and then select your Black Ops 2 game folder.  
 The folder you need to select is most likely either called `pluto_t6_full_game` or `Call of Duty Black Ops II`.  
 Do not select your Games folder or your Document folders. **Select the folder with Black Ops II files in it!**
 
@@ -109,9 +112,17 @@ For those struggling to locate your game folder, this is what the contents of th
 
 ### T6 Error: Invalid Game Path
 
+If you get this error then the folder that you selected during the setup doesn't contain the game files.  
+
 ![img](/images/docs/install/46KPMDc.png)
 
-As the error says you have a invalid game path selected in the launcher. To fix this issue click the following icon to reselect your game folder:
+If you get this error then this means you selected your entire disk instead of the game folder.  
+`C:\` is not your Black Ops II folder.
+
+![img](/images/docs/install/error-401.png)
+
+In both cases, the way to fix this issue is to click on Game settings in the launcher and to select the folder that contains the Black Ops II files.  
+If you can't find it then read the [guide from the start](#t6-black-ops-2) again.
 
 ![img](/images/docs/install/MnkAcr8.png)
 
@@ -169,8 +180,12 @@ Now simply wait for the download to complete, you can monitor progress by clicki
 
 ### Installing the DLCs (MW3)
 
-The section will cover how to download and install the English DLC to get the complete MW3 experience. Note: this DLC will only work on an English copy of the game.
-You can either download them using the MEGA link or the torrent file. **You do not need to download both, pick whichever option works best for you.**
+The section will cover how to download and install the English DLC to get the complete MW3 experience.  
+If you don't want to install them then you can [skip to the setup in the launcher](#setting-up-iw5-with-the-plutonium-launcher).  
+You can either download them using the MEGA link or the torrent file. **You do not need to download both, pick whichever option works best for you.**  
+Note that these files will only work on an English copy of the game and that they're optional. Only download them if you want to play DLC maps.  
+Keep in mind that if a server rotates a DLC map and you don't have them installed you will be kicked so if you can it's probably better to install them.  
+This only downloads the DLC maps. You cannot play the game only with these files. If you want to download the game then [read above](#installing-the-base-game-mw3)!
 
 #### MEGA
 
@@ -231,7 +246,7 @@ Congratulations the DLC is now installed!
 
 ### Setting up IW5 with the Plutonium Launcher
 
-Navigate to Modern Warfare 3 and then hit **SETUP** and then select your Modern Warfare 3 game folder.  
+Navigate to Modern Warfare 3, click on **SETUP** and then select your Modern Warfare 3 game folder.  
 The folder you need to select will be called `Call of Duty Modern Warfare 3`.  
 Do not select your Games folder or your Document folders. **Select the folder with Modern Warfare 3 files in it!**
 ![img](/images/docs/install/qDJ7OeD.png)
@@ -246,6 +261,22 @@ Do not select your Games folder or your Document folders. **Select the folder wi
 For those struggling to locate your game folder, this is what the contents of the game folder will look like:
 
 ![img](/images/docs/install/7FOyDlg.png)
+
+### IW5 Error: Invalid Game Path
+
+If you get this error then the folder that you selected during the setup doesn't contain the game files.  
+
+![img](/images/docs/install/mw3-wrong-folder.png)
+
+If you get this error then this means you selected your entire disk instead of the game folder.  
+`C:\` is not your Modern Warfare 3 folder.  
+
+![img](/images/docs/install/error-401.png)
+
+In both cases, the way to fix this issue is to click on Game settings in the launcher and to select the folder that contains the Modern Warfare 3 files.  
+If you can't find it then read the [guide from the start](#iw5-modern-warfare-3) again.
+
+![img](/images/docs/install/MnkAcr8.png)
 
 Congratulations you have completed the installation guide.
 
@@ -267,7 +298,7 @@ If you already have the game installed from Steam then you can skip the below se
 
 This section will cover downloading a copy of WAW. Please skip this section if you already have a copy of the game.
 
-Please note we highly recommend buying the game if you do not own it, it is the best way to get a copy of the game files that are up to date and not corrupt or changed in some way. Key sites will give you a decent discount in 2021.
+Please note we highly recommend buying the game if you do not own it, it is the best way to get a copy of the game files that are up to date and not corrupt or changed in some way. Key sites will give you a decent discount.
 
 1. Create a folder on any drive called `Games`.
 
@@ -304,7 +335,7 @@ Once it's done you will have your copy of the game downloaded, here is an exampl
 
 ### Setting up T4 with the Plutonium Launcher
 
-Navigate to World At War and then hit **SETUP** and then select your World At War game folder.  
+Navigate to World At War, click on **SETUP** and then select your World At War game folder.  
 The folder you need to select is most likely either called `pluto_t4_full_game` or `Call of Duty World At War`.  
 Do not select your Games folder or your Document folders. **Select the folder with World At War files in it!**
 ![WAW in launcher](/images/docs/install/4xzmAUX.png)
@@ -319,9 +350,19 @@ If you are using the torrent it will be in a folder named `pluto_t4_full_game`
 
 ### T4 Error: Invalid Game Path
 
+If you get this error then the folder that you selected during the setup doesn't contain the game files.  
+
 ![Invalid Game Directory](/images/docs/install/vlwamKe.png)
 
-As the error says you have an invalid game path selected in the launcher. To fix this issue click the cog to reselect your game folder.
+If you get this error then this means you selected your entire disk instead of the game folder.  
+`C:\` is not your World at War folder.  
+
+![img](/images/docs/install/error-401.png)
+
+In both cases, the way to fix this issue is to click on Game settings in the launcher and to select the folder that contains the World at War files.  
+If you can't find it then read the [guide from the start](#t4-world-at-war) again.
+
+![img](/images/docs/install/MnkAcr8.png)
 
 ---
 
@@ -339,7 +380,7 @@ If you already have the game installed from Steam or had a previous update of Pl
 
 This section will cover downloading a copy of BO1. Please skip this section if you already have a copy of the game.
 
-Please note we highly recommend buying the game if you do not own it, it is the best way to get a copy of the game files that are up to date and not corrupt or changed in some way. Key sites will give you a decent discount in 2021.
+Please note we highly recommend buying the game if you do not own it, it is the best way to get a copy of the game files that are up to date and not corrupt or changed in some way. Key sites will give you a decent discount.
 
 1. Create a folder on any drive called `Games`.
 
@@ -378,7 +419,10 @@ Once it's done you will have your copy of the game downloaded, here is an exampl
 
 <Alert variant="warning">
 
-Skip these steps if you installed the game via the torrent. This is for people who used Steam, but do not own any DLC.
+If you installed the game via the torrent from the instructions above then [skip to the setup in the launcher](#setting-up-t5-with-the-plutonium-launcher).  
+**This is only for people who use their Steam files, but do not own any DLC**.  
+This only downloads the DLC maps. You cannot play the game only with these files. If you want to download the game then [read above](#installing-the-base-game-bo1)!  
+Keep in mind that if a server rotates a DLC map and you don't have them installed you will be kicked so if you can it's probably better to install them.  
 
 </Alert>
 
@@ -403,7 +447,7 @@ You will know it's done when the progress changes to `100%` and the status chang
 
 ### Setting up T5 with the Plutonium Launcher
 
-Navigate to Black Ops and then hit **SETUP** and then select your Black Ops game folder.  
+Navigate to Black Ops, click on **SETUP** and then select your Black Ops game folder.  
 The folder you need to select is most likely either called `pluto_t5_full_game` or `Call of Duty Black Ops`.  
 Do not select your Games folder or your Document folders. **Select the folder with Black Ops files in it!**
 ![BO1 in launcher](/images/docs/install/bo1-select-launcher.png)
@@ -418,9 +462,19 @@ If you are using the torrent it will be in a folder named `pluto_t5_full_game`
 
 ### T5 Error: Invalid Game Path
 
+If you get this error then the folder that you selected during the setup doesn't contain the game files.  
+
 ![Invalid Game Directory](/images/docs/install/vlwamKe.png)
 
-As the error says you have an invalid game path selected in the launcher. To fix this issue click the cog to reselect your game folder.
+If you get this error then this means you selected your entire disk instead of the game folder.  
+`C:\` is not your World at War folder.  
+
+![img](/images/docs/install/error-401.png)
+
+In both cases, the way to fix this issue is to click on Game settings in the launcher and to select the folder that contains the World at War files.  
+If you can't find it then read the [guide from the start](#t5-black-ops-1) again.
+
+![img](/images/docs/install/MnkAcr8.png)
 
 ---
 

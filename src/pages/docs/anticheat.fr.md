@@ -45,8 +45,8 @@ Veuillez noter que, comme indiqué ci-dessus, il s’agit d’un usage privé ou
 
 ## Ce qui ne me fera pas bannir
 
-* Chargement de camos/textures personnalisés à l’aide du dossier que nous fournissons (Voir [Comment charger des camouflages/textures](./modding/loading-textures))
-* Chargement de scripts/mods gsc à l’aide du dossier que nous fournissons (See [Charger des mods dans Plutonium](./modding/loading-mods))
-* Modification des dvars et utilisation des commandes via la console de jeu (Voir [Comment ouvrir la console](./opening-console))
+* Chargement de camos/textures personnalisés à l’aide du dossier que nous fournissons (Voir [Comment charger des camouflages/textures](/docs/modding/loading-textures))
+* Chargement de scripts/mods gsc à l’aide du dossier que nous fournissons (See [Charger des mods dans Plutonium](/docs/modding/loading-mods))
+* Modification des dvars et utilisation des commandes via la console de jeu (Voir [Comment ouvrir la console](/docs/opening-console))
 * Déverrouiller vos statistiques à l’aide de la commande d'unlockall de la console.
 * Enfreindre les règles sur les serveurs, ceux-ci sont modérés par leurs propriétaires. Les propriétaires de serveurs ne peuvent que vous bannir de leur(s) propre(s) serveur(s), et non pas globalement.

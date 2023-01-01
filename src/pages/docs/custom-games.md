@@ -4,7 +4,9 @@
 
 On T6 and T5 most players should be able to invite people out of the box.  
 In case it doesn't work you will have to take extra steps just like before.  
-On T4 and IW5 you may need to take extra steps to be able to join your friends.
+On T4 and IW5 you may need to take extra steps to be able to join your friends.  
+
+If you don't know what these code names refer to you can take a look at the [engine explanations doc](https://plutonium.pw/docs/engine-explanations/).
 
 </Alert>
 

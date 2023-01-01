@@ -69,8 +69,10 @@ Une fois le téléchargement terminé, vous aurez téléchargé votre copie du j
 
 <Alert variant="warning">
 
-Ignorez cette partie si vous avez installé le jeu via le torrent, il contient déjà tout les DLC.  
-Cette partie est pour les personnes utilisant leurs fichiers Steam et qui ne possèdent pas les DLC.
+Si vous avez installé le jeu via le torrent fourni dans les instructions précédentes alors [passez à la configuration dans le launcher](#configurer-t6-dans-le-launcher-plutonium).  
+**Cette partie ne concerne que les personnes qui utilisent leurs fichiers Steam et qui ne possèdent pas les DLC**.  
+Ce torrent ne fourni que les cartes des DLC. Vous ne pouvez pas jouer au jeu seulement avec ces fichiers. Si vous voulez télécharger le jeu alors [lisez au dessus](#installation-du-jeu-de-base-bo2)!  
+Gardez en tête que si un serveur charge une carte des DLC et que vous ne l'avez pas installé vous serez exclu, si vous le pouvez il est donc préférable de les installer.
 
 </Alert>
 
@@ -113,10 +115,17 @@ Pour ceux qui ont du mal à localiser le dossier du jeu, voici à quoi ressemble
 
 ### Erreur T6 : Chemin du jeu non valide
 
+Si cette erreur s'affiche alors le dossier que vous avez sélectionné pendant le setup ne contient pas les fichiers du jeu.
+
 ![img](/images/docs/install/46KPMDc.png)
 
-Comme l’erreur l’indique, vous avez sélectionner un chemin de jeu non valide dans le launcher.  
-Pour résoudre ce problème, cliquez sur l’icône suivante pour resélectionner votre dossier de jeu :
+Si vous voyez cette erreur alors vous avez sélectionné votre disque tout entier au lieu du dossier du jeu.  
+`C:\` n'est pas le dossier de Black Ops II.
+
+![img](/images/docs/install/error-401.png)
+
+Dans les deux cas, pour régler cette erreur vous devez cliquer sur Game settings dans le launcher et sélectionner le dossier qui contient les fichiers de Black Ops II.  
+Si vous n'arrivez pas à le trouver alors lisez à nouveau le [guide depuis le début](#t6-black-ops-2).
 
 ![img](/images/docs/install/MnkAcr8.png)
 
@@ -175,10 +184,12 @@ Vous pouvez surveiller la progression en cliquant sur le bouton `TÉLÉCHARGEMEN
 
 ### Installation des DLC (MW3)
 
-Cette section expliquera comment télécharger et installer le DLC anglais pour avoir toutes les cartes
-Note : ces DLC ne fonctionneront que sur une version anglaise du jeu.
-Vous pouvez les télécharger en utilisant le lien MEGA ou le fichier torrent.  
-**Vous n’avez pas besoin de télécharger les deux, choisissez l’option qui vous convient le mieux.**
+Cette section explique comment télécharger et installer les DLC pour avoir l'éxperience MW3 complète.  
+Si vous ne voulez pas installer les DLC, vous pouvez alors [passez à la configuration dans le launcher](#configurer-iw5-dans-le-launcher-plutonium).  
+Vous pouvez au choix télécharger les DLC en utilisant le lien MEGA ou le torrent. **Vous n'avez pas besoin des deux, prennez le téléchargement qui vous arrange.**  
+Notez que ce téléchargement est optionnel. Ils ne sont nécessaires que pour jouer aux cartes DLC.  
+Gardez à l'esprit que si un serveur charge une carte DLC et que vous ne l'avez pas installé vous serez exclu, il est donc recommandé d'installer les DLC si possible.  
+A noter que ce téléchargement ne fourni que les cartes DLC. Vous ne pouvez pas jouer au jeu seulement avec ces fichiers. Si vous voulez télécharger le jeu alors [lisez au dessus](#installation-du-jeu-de-base-mw3)!
 
 #### MEGA
 
@@ -255,6 +266,22 @@ Pour ceux qui ont du mal à localiser le dossier du jeu, voici à quoi ressemble
 
 ![img](/images/docs/install/7FOyDlg.png)
 
+### Erreur IW5 : Chemin du jeu non valide
+
+Si cette erreur s'affiche alors le dossier que vous avez sélectionné pendant le setup ne contient pas les fichiers du jeu.
+
+![img](/images/docs/install/mw3-wrong-folder.png)
+
+Si vous voyez cette erreur alors vous avez sélectionné votre disque tout entier au lieu du dossier du jeu.
+`C:\` n'est pas le dossier de Modern Warfare 3.
+
+![img](/images/docs/install/error-401.png)
+
+Dans les deux cas, pour régler cette erreur vous devez cliquer sur Game settings dans le launcher et sélectionner le dossier qui contient les fichiers de Modern Warfare 3.  
+Si vous n'arrivez pas à le trouver alors lisez à nouveau le [guide depuis le début](#iw5-modern-warfare-3).
+
+![img](/images/docs/install/MnkAcr8.png)
+
 Vous avez maintenant terminé l'installation de MW3.  
 Pour lancer MW3 ouvrez le launcher et cliquez sur PLAY.
 
@@ -320,10 +347,17 @@ Ne sélectionnez pas votre dossier Games ou Jeux ou le dossier Documents. **Sél
 
 ### Erreur T4 : Chemin du jeu non valide
 
+Si cette erreur s'affiche alors le dossier que vous avez sélectionné pendant le setup ne contient pas les fichiers du jeu.
+
 ![Invalid Game Directory](/images/docs/install/vlwamKe.png)
 
-Comme l’erreur l’indique, vous avez sélectionner un chemin de jeu non valide dans le launcher.  
-Pour résoudre ce problème, cliquez sur l’icône suivante pour resélectionner votre dossier de jeu :
+Si vous voyez cette erreur alors vous avez sélectionné votre disque tout entier au lieu du dossier du jeu.
+`C:\` n'est pas le dossier de World at War.
+
+![img](/images/docs/install/error-401.png)
+
+Dans les deux cas, pour régler cette erreur vous devez cliquer sur Game settings dans le launcher et sélectionner le dossier qui contient les fichiers de World at War.  
+Si vous n'arrivez pas à le trouver alors lisez à nouveau le [guide depuis le début](#t4-world-at-war).
 
 ![img](/images/docs/install/MnkAcr8.png)
 
@@ -381,8 +415,10 @@ Une fois le téléchargement terminé, vous aurez téléchargé votre copie du j
 
 <Alert variant="warning">
 
-Ignorez cette partie si vous avez installé le jeu via le torrent, il contient déjà tout les DLC.  
-Cette partie est pour les personnes utilisant leurs fichiers Steam et qui ne possèdent pas les DLC.
+Si vous avez installé le jeu via le torrent fourni dans les instructions précédentes alors [passez à la configuration dans le launcher](#configurer-t5-dans-le-launcher-plutonium).  
+**Cette partie ne concerne que les personnes qui utilisent leurs fichiers Steam et qui ne possèdent pas les DLC**.  
+Ce torrent ne fourni que les cartes des DLC. Vous ne pouvez pas jouer au jeu seulement avec ces fichiers. Si vous voulez télécharger le jeu alors [lisez au dessus](#installation-du-jeu-de-base-bo1)!  
+Gardez en tête que si un serveur charge une carte des DLC et que vous ne l'avez pas installé vous serez exclu, si vous le pouvez il est donc préférable de les installer.
 
 </Alert>
 
@@ -423,10 +459,19 @@ Ne sélectionnez pas votre dossier Games ou Jeux ou le dossier Documents. **Sél
 
 ### Erreur T5 : Chemin du jeu non valide
 
+Si cette erreur s'affiche alors le dossier que vous avez sélectionné pendant le setup ne contient pas les fichiers du jeu.
+
 ![Invalid Game Directory](/images/docs/install/vlwamKe.png)
 
-Comme l’erreur l’indique, vous avez sélectionner un chemin de jeu non valide dans le launcher.  
-Pour résoudre ce problème, cliquez sur l’icône suivante pour resélectionner votre dossier de jeu :
+Si vous voyez cette erreur alors vous avez sélectionné votre disque tout entier au lieu du dossier du jeu.
+`C:\` n'est pas le dossier de World at War.
+
+![img](/images/docs/install/error-401.png)
+
+Dans les deux cas, pour régler cette erreur vous devez cliquer sur Game settings dans le launcher et sélectionner le dossier qui contient les fichiers de World at War.  
+Si vous n'arrivez pas à le trouver alors lisez à nouveau le [guide depuis le début](#t5-black-ops-1).
+
+![img](/images/docs/install/MnkAcr8.png)
 
 ---
 

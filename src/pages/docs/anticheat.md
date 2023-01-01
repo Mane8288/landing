@@ -45,8 +45,8 @@ Please note, as stated above this is for private use or in LAN mode. You will no
 
 ## What will not get me banned
 
-* Loading custom camos/textures using the folder we provide (See [How to Load custom camos/textures](./modding/loading-textures))
-* Loading gsc scripts/mods using the folder we provide (See [Loading Mods into Plutonium](./modding/loading-mods))
-* Changing dvars and using commands via the in-game console (See [How to open the console](./opening-console))
+* Loading custom camos/textures using the folder we provide (See [How to Load custom camos/textures](/docs/modding/loading-textures/))
+* Loading gsc scripts/mods using the folder we provide (See [Loading Mods into Plutonium](/docs/modding/loading-mods/))
+* Changing dvars and using commands via the in-game console (See [How to open the console](/docs/opening-console))
 * Unlocking your stats using the ```unlockall``` console command.
 * Breaking the rules on individual servers, those are moderated by their owners. Server owners can only ban you from their own server(s), not globally.

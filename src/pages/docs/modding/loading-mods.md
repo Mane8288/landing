@@ -1,10 +1,18 @@
 # Loading Mods into Plutonium
 
+This page will cover how loading scripts and mods work for all our games.  
+You can find scripts and mods in the modding releases sections on our forums:
+
+- [For T4](https://forum.plutonium.pw/category/40/waw-modding-releases-resources)
+- [For T5](https://forum.plutonium.pw/category/60/bo1-modding-releases-resources)
+- [For IW5](https://forum.plutonium.pw/category/27/mw3-modding-releases-resources)
+- [For T6](https://forum.plutonium.pw/category/23/bo2-modding-releases-resources)
+
 ## T6
 
 ### Requirements for writing GSC scripts
 
-[GSC Toolkit](https://drive.google.com/file/d/1j_ocjFCQsFaWqF2-PfdoJt2nF_EpNL_G/view?usp=sharing) (Required to compile your script)
+[GSC Tool](https://github.com/xensik/gsc-tool/releases/latest) (required to compile your script)
 
 ---
 
@@ -18,15 +26,18 @@ __Example scripts__
 
 ### Getting started with GSC on T6
 
-1\. You can write/download any GSC of your choice. If you are writing it from scratch/have the source code, note that you will need to compile it, which we will talk about later.
+1\. You can write/download any GSC of your choice.  
+If you are writing it from scratch/have the source code, note that you will need to compile it, which we will talk about later.
 
 <Alert variant="warning">
 
-If you are writing your own GSC, you must have an `init()` or `main()` function somewhere. This function is called the 'entry point', and it's a function the game engine is familiar with and will call.
+If you are writing your own GSC, you must have an `init()` or `main()` function somewhere. This function is called the 'entry point'.  
+It's a function the game engine is familiar with and is able to call when your script runs at the start of a game.
 
 </Alert>
 
-2\. For this tutorial, we are going to be writing and using this GSC as a reference.
+2\. For this tutorial, we are going to be writing and using this GSC as a reference.  
+You can simply open a notepad, paste the content below inside it then save the file as a `.gsc` file.
 
 ```cs
 init() // entry point
@@ -54,21 +65,35 @@ onplayerspawned()
 }
 ```
 
-3\. Using the GSC Compiler (from GSC Toolkit), simply drag and drop your raw GSC script ontop of `Compiler.exe` and it should spit out a compiled version.
+3\. Using the GSC Tool downloaded in the requirements section, you can easily turn a source script into a compiled script that the game will be able to read and run by following the [instructions](https://github.com/xensik/gsc-tool#usage).  
+For T6 the command should look something like  
+`gsc-tool.exe comp t6 "%localappdata%\Plutonium\storage\t6\scripts\mp\example.gsc"`.  
 
-![compiling process](/images/docs/modding/loading-mods/OWtguHd.gif)
+To make working with T6 scripts easier you can also create a batch file containing the following commands and run it using Windows cmd or your IDE's integrated terminal.
 
-3a\. If you get an error, make sure your script isn't already precompiled (open it, and if it looks like gibberish, it is already compiled)  
+```bat
+@echo off
+cls
+copy "example.gsc" "%localappdata%\Plutonium\storage\t6\scripts\mp\example.gsc" /y >NUL
+gsc-tool.exe comp t6 "%localappdata%\Plutonium\storage\t6\scripts\mp\example.gsc" 
+```
 
-![Error from Compiler](/images/docs/modding/loading-mods/JgwqeCy.png)
+It will simply copy your source file directly into the `scripts\mp` folder and compile it right after, showing you the result of the compilation process, without modifying the original source file that you're currently working on.  
 
-4\. Navigate to the T6 Plutonium Folder by pressing `Win+R` and pasting `%localappdata%\Plutonium\storage\t6` into it, and hitting Ok.
+Of course, replace the first copy command argument with the name of the source GSC file you're working with, or the full path to it.  
+Also put the exact same path for the second copy argument and the `gsc-tool` 3rd argument (the path) so that it will compile the file that got copied.
 
-5\. Create a folder called `scripts`, then inside that folder, create two new folders called `mp`, and `zm`.
+3b\. If you get an error, make sure your script isn't already precompiled (open it, and if it looks like gibberish, it is already compiled)  
 
-![img](/images/docs/modding/loading-mods/RWrHJt5.png)
+![t6-compiling-already-compiled-error](/images/docs/modding/loading-mods/t6-compiling-already-compiled-error.png)
 
-6\. Take your compiled script and put it in `%localappdata%\Plutonium\storage\t6\scripts\mp` or `%localappdata%\Plutonium\storage\t6\scripts\zm` depending on which mode it is for.  
+3c\. If you get an error and your script isn't compiled then read the error and fix the line and column where the error is.  
+For example here the compiler throws a very clear error on the third line because I added `;` twice when only one should be there.  
+
+![t6-compiling-syntax-error](/images/docs/modding/loading-mods/t6-compiling-syntax-error.png)
+![t6-compiling-syntax-error-gsc](/images/docs/modding/loading-mods/t6-compiling-syntax-error-gsc.png)
+
+4\. Take your compiled script and put it into `%localappdata%\Plutonium\storage\t6\scripts\mp` or `%localappdata%\Plutonium\storage\t6\scripts\zm` depending on which mode it is for.  
 If your script should always be loaded no matter the game mode copy it to `%localappdata%\Plutonium\storage\t6\scripts`
 
 7\. When launching your server or a custom game, you will know if all has gone well or not if the console prints `Custom script 'scripts/mp/yourScriptName' loaded`.

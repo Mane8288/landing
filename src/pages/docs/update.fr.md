@@ -17,16 +17,14 @@ Si vous n'obtenez pas les mises à jours automatiquement, vous avez probablement
 
 1. Ouvrez votre launcher et cliquez sur votre photo de profil en haut à droite
 2. Ouvrez la [page de changelog](/docs/changelog/)
-3. Comparez la core version dans votre launcher et la dernière version sur le changelog.  
-Si votre core version est inférieure à celle sur le changelog alors vous n'êtes pas à jour.  
-La dernière version est celle à droite sur le changelog. Par exemple `r2158-r2190` veut dire que la version précédente était `r2158`
- et que la dernière version est `r2190`.  
- **C'est un exemple** `r2190` n'est plus la dernière version.
+3. Comparez la Core version dans votre launcher et la dernière version sur le changelog.  
+Si votre Core version est inférieure à celle sur le changelog alors vous n'êtes pas à jour.  
 
 ## Régler l'erreur "Failed to check for updates"
 
-Cette erreur survient lorsque vous démarrez le launcher sans démarrer l'updater avant (souvent parce que vous avez épingler le launcher pendant qu'il était déjà lancé ou parce que quelque chose bloque la connexion à l'updater)
-<br/>Essayez ces méthodes une par une et dans l'ordre pour régler cette erreur :
+Cette erreur survient lorsque vous démarrez le launcher sans démarrer l'updater avant (souvent parce que vous avez épingler le launcher pendant qu'il était déjà lancé ou parce que quelque chose bloque la connexion à l'updater).  
+
+Essayez ces méthodes une par une et dans l'ordre pour régler cette erreur :
 
 ### Méthode 1 (Bien épingler le launcher)
 1. Rendez vous dans le dossier où `plutonium.exe` est situé (souvent dans les fichiers de votre jeu ou sur le bureau)

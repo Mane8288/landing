@@ -9,5 +9,8 @@ Si vous avez un clavier 60% vous devez appuyer sur FN et ECHAP.
 
 ![Console](/images/docs/opening-console/8myrfmi.png)
 
-Vous pouvez appiyer sur MAJ + \~ (ou ²) pour avoir accès à une console étendue.
+Vous pouvez également utiliser le bootstrapper pour éxecuter des commandes (le terminal qui s'ouvre en même temps que le jeu)
+![Console](/images/docs/opening-console/bootstrapper.png)
+
+Vous pouvez appuyer sur MAJ + \~ (ou ²) pour avoir accès à une console étendue.
 ![Expanded Console](/images/docs/opening-console/4wU24zG.png)
