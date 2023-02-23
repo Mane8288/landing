@@ -14,7 +14,7 @@ We have a few dvars that are specific to Plutonium.
 
 * `sv_allowAimAssist 1` - Allow Aim Assist on gamepads. (Setting this to 0 will lock the option on gamepad controls menu.) This is on by default, turn this off to disable aim assist when on your server.
 * `sv_motd` - Sets a custom motd which is shown on the intel message loadscreen when a player joins. Leave blank for the default intel messages.
-* `sv_enableBounces 1` - Enables bouncing on the server.
+* `sv_enableBounces 1` - Enables bouncing on the server, `sv_enableBounces 2` allows for double bounces.
 * `sv_enableDoubleTaps 1` - Allow double tap on weapon switching.
 * `sv_wwwBaseURL` - URL for downloading mods from. [Learn more about FastDL for IW5 here](/docs/server/iw5/fastdl).
 * `fs_game` - What mod are we loading. [Learn more about FastDL for IW5 here](/docs/server/iw5/fastdl).
