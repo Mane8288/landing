@@ -2,6 +2,26 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r3417
+
+* All Games
+  * Security fixes
+
+* T5
+  * Fixed mod downloading on MP
+
+* T6
+  * Fixed a bug where the game tried to load GSC when it shouldn't
+
+## r3412
+
+* IW5
+  * Fixed mouse sensitivity regression
+  * Fixed gamepad melee bug
+
+* T4
+  * Stability fix for some custom maps
+
 ## r3408
 
 * Launcher
