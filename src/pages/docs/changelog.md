@@ -2,6 +2,47 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r3514
+
+* All Games
+  * Security and stability fixes
+
+* IW5
+  * Add ability to shuffle killstreaks with the gamepad
+  * Add ability to select the target location for laptop based killstreaks with the gamepad
+  * Fix Bouncing `sv_enableBounces`
+  * Add `sv_allanglesBounces`, allows player to bounce from any angle
+  * Fixed MOAB lag due to script errors
+  * Fix Game Summary crash on private match
+  * Add support to mute players from text chat (`muteclient num` and `unmuteclient num`)
+  * Add clantag support to bots.txt. Separate the name and clantag with a comma (name,tag)
+  * Add new GSC compiler. It supports preprocessor directives.
+
+* T4
+  * Add `sv_sayname`
+  * Add kick reason on zombies/co-op
+
+* T5
+  * Fix rcon on SP
+  * Add say & tell on SP
+  * Add noclip/ufo
+  * Add `g_password` on SP
+  * Add `sv_sayname`
+  * Fix a issue with 3 char names showing up a number
+  * Fix client crash when client was kicked from a dedicated server
+  * Add clantag support to bots.txt. Separate the name and clantag with a comma (name,tag)
+
+* T6
+  * Fix issue where long usernames were causing challenge verification to fail
+  * Fix g_deadChat dvar
+  * Add dead players chat
+  * Add `player_sustainammo`
+  * Add `player_sprintunlimited`
+  * Allow the ablity to have custom bot names from bots.txt
+  * Allow the ablity to blank sv_sayname
+  * Add clantag support to bots.txt. Separate the name and clantag with a comma (name,tag)
+  * Add new GSC compiler. It supports preprocessor directives.
+
 ## r3417
 
 * All Games

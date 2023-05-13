@@ -481,3 +481,25 @@ If you can't find it then read the [guide from the start](#t5-black-ops-1) again
 **Congratulations you have completed the installation guide.**
 
 To launch BO1 simply open the Plutonium launcher and select PLAY
+
+## Guitar Hero III
+
+This section will cover installing Guitar Hero III.
+
+1. Download [PreLoader.exe](https://plutonium.pw/III/PreLoader.exe) and save it to an empty Folder, PreLoader will download the Game Files into this Folder.
+
+2. Launch PreLoader.exe and let it finish downloading and setting up.
+
+3. Launch GH3.exe to start the Game.
+
+4. When the Game prompts you if you want to play online confirm this, then choose to register a new Account.
+
+5. Create a new Account using the Name and Password of your choice (**Name can contain Lowercase Letters only!**) and leave the "License" field empty.
+
+<Alert variant="warning">
+
+Do not log in with your Plutonium Forum Account, the Accounts for this Game are not tied to the Forum.
+
+</Alert>
+
+**That's it, have fun playing!**
