@@ -2,6 +2,11 @@
 
 This is a list of Plutonium updates, and the changes they introduced. New updates install automatically when available when you start Plutonium.exe
 
+## r3519
+
+* All Games
+  * Networking fixes
+
 ## r3514
 
 * All Games
