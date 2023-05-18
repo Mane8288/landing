@@ -1,7 +1,7 @@
 # Anticheat (sistema anti-trampas)
 
 Plutonium tiene un sistema antitrampas completamente personalizado creado por nuestros desarrolladores. Si bien no podemos revelar cómo funciona, podemos decir con confianza que funciona, ya que hemos frustrado más de
-[20,000 intentos de trampas](https://forum.plutonium.pw/topic/10225/anticheat-1-year-statistics) No puede atraparlo todo, pero la mayoría de las personas están de acuerdo en que hace un mejor trabajo que otros sistemas disponibles.
+[20,000 intentos de trampas](https://forum.plutonium.pw/topic/10225/anticheat-1-year-statistics). No puede atraparlo todo, pero la mayoría de las personas están de acuerdo en que hace un mejor trabajo que otros sistemas disponibles.
 
 ## Política de Trampas de Plutonium
 

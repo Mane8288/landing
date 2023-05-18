@@ -240,7 +240,7 @@ If you want to find your internal IP open a Command Prompt and type `ipconfig`.
 
 Your local IP will be under `IPv4 Address`.
 
-From there, every client on your LAN will simply be able to connect by [opening the console](opening-console) and executing
+From there, every client on your LAN will simply be able to connect by [opening the console](/docs/opening-console/) and executing
 
 ```cs
 connect HostsIPv4AddressHere
@@ -252,7 +252,7 @@ If the friends list doesn't work for you, you can try connecting via an IP Addre
 
 Have the host get their IP (which they can do via the Plutonium Overlay's Network tab, or via [WhatIsMyIP](https://www.whatismyip.com/))
 
-Then, you will simply be able to connect by [opening the console](opening-console) and running the command
+Then, you will simply be able to connect by [opening the console](/docs/opening-console/) and running the command
 
 ```cs
 connect HostsIPAddressHere

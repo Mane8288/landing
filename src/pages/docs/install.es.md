@@ -25,7 +25,7 @@ El iniciador ahora empezará a instalar los archivos del cliente.
 
 ### Solo quiero actualizar / ya tengo Black Ops 2 instalado
 
-Si ya tienes el juego instalado en Steam o una actualización anterior de Plutonium, entonces puedes saltarte la sección de abajo e ir directo a la **[Instalación de DLCs](#installing-t6-dlc)**.
+Si ya tienes el juego instalado en Steam o una actualización anterior de Plutonium, entonces puedes saltarte la sección de abajo e ir directo a la **[Instalación de DLCs](#instalación-de-los-dlcs-bo2)**.
 
 ### Para instalar el juego base (BO2)
 
@@ -66,9 +66,9 @@ Cuando termine, tendrás tu copia del juego descargada. Aquí hay un ejemplo de 
 
 <Alert variant="warning">
 
-Si instalaste el juego utilizando el torrent de las instrucciones de arriba, entonces [pasa a configurar el iniciador](#setting-up-t6-with-the-plutonium-launcher).  
+Si instalaste el juego utilizando el torrent de las instrucciones de arriba, entonces [pasa a configurar el iniciador](#configuración-de-t6-con-el-iniciador-de-plutonium).  
 **Esto es solo para aquellos que usaron los archivos de Steam, pero no tienen ningún DLC**.  
-Esto solo descarga los mapas de DLC. No puedes jugar el juego solo con estos archivos. Si quieres descargar el juego, entonces [lee arriba](#installing-the-base-game-bo2)!  
+Esto solo descarga los mapas de DLC. No puedes jugar el juego solo con estos archivos. Si quieres descargar el juego, entonces [lee arriba](#para-instalar-el-juego-base-bo2)!  
 Ten en cuenta que si un servidor rota sus mapas a uno de DLC y no los tienes instalados, el juego te expulsará, así que si puedes instalarlos, hazlo.  
 
 </Alert>
@@ -136,9 +136,9 @@ Para ejecutar Black Ops II, simplemente abre el iniciador de Plutonium y dale cl
 
 ### Solo quiero actualizar / ya tengo MW3 instalado
 
-Si ya tienes el juego instalado en Steam o una actualización anterior de Plutonium, entonces puedes saltarte la sección de abajo e ir directo a la [Instalación de DLCs](#installing-the-dlc).
+Si ya tienes el juego instalado en Steam o una actualización anterior de Plutonium, entonces puedes saltarte la sección de abajo e ir directo a la [Instalación de DLCs](#instalación-de-los-dlc-mw3).
 
-### Installing the base game (MW3)
+### Instalación del juego base (MW3)
 
 Nota: Esta sección crubrirá la descarga de una copia GRATIS de MW3. Por favor, salta esta parte si ya tienes una copia de MW3.
 
@@ -181,11 +181,11 @@ Ahora solo espera a que se complete la descarga, la cual puedes monitorear dánd
 ### Instalación de los DLC (MW3)
 
 Esta sección cubrirá cómo descargar e instalar los DLC en Inglés para obtener la experiencia completa de MW3.  
-Si no quieres instalarlos, entonces puedes [saltar a la configuración en el iniciador](#setting-up-iw5-with-the-plutonium-launcher).  
+Si no quieres instalarlos, entonces puedes [saltar a la configuración en el iniciador](#configuración-de-iw5-con-el-iniciador-de-plutonium).  
 Puedes descargarlos usando el lunk de MEGA o el torrent. **No tienes que descargar los dos, solo escoge el que funcione mejor para ti.**  
 Nótese que estos archivos solo funcionarán en una copia en Inglés del juego y son opcionales. Descárgalos únicamente si deseas jugar los mapas de DLC.  
 Ten en cuenta que si un servidor rota sus mapas a uno de DLC y no los tienes instalados, el juego te expulsará, así que si puedes instalarlos, hazlo.   
-Esto solo descarga los mapas de DLC. No puedes jugar el juego solo con estos archivos. Si quieres descargar el juego, entonces [lee arriba](#installing-the-base-game-mw3)!
+Esto solo descarga los mapas de DLC. No puedes jugar el juego solo con estos archivos. Si quieres descargar el juego, entonces [lee arriba](#instalación-del-juego-base-mw3)!
 
 #### MEGA
 
@@ -292,7 +292,7 @@ El juego va a crashear la primera vez que lo ejecutes debido a que necesita borr
 
 ### Solo quiero actualizar / ya tengo WaW instalado
 
-Si ya tienes el juego instalado en Steam, entonces puedes saltarte la sección de abajo e ir al sección del [Iniciador de Plutonium](#setting-up-t4-with-the-plutonium-launcher).
+Si ya tienes el juego instalado en Steam, entonces puedes saltarte la sección de abajo e ir al sección del [Iniciador de Plutonium](#configuración-de-t4-con-el-iniciador-de-plutonium).
 
 ### ***Instalación del juego base (WaW)***
 
@@ -374,7 +374,7 @@ Para ejecutar World at War, simplemente abre el iniciador de Plutonium y dale cl
 
 ### ***Solo quiero actualizar / ya tengo WaW instalado***
 
-Si ya tienes el juego instalado en Steam o una actualización anterior de Plutonium, entonces puedes saltarte la sección de abajo e ir directo a la **[Instalación de DLCs](#installing-the-dlcs-bo1)**.
+Si ya tienes el juego instalado en Steam o una actualización anterior de Plutonium, entonces puedes saltarte la sección de abajo e ir directo a la **[Instalación de DLCs](#instalación-de-los-dlc-bo1)**.
 
 ### ***Instalación del juego base (BO1)***
 
@@ -419,9 +419,9 @@ Cuando termine, tendrás tu copia del juego descargada. Aquí hay un ejemplo de 
 
 <Alert variant="warning">
 
-Si instalaste el juego utilizando el torrent de las instrucciones de arriba, entonces [pasa a configurar el iniciador](#setting-up-t5-with-the-plutonium-launcher).  
+Si instalaste el juego utilizando el torrent de las instrucciones de arriba, entonces [pasa a configurar el iniciador](#configuración-de-t5-con-el-iniciador-de-plutonium).  
 **Esto es solo para aquellos que usaron los archivos de Steam, pero no tienen ningún DLC**.  
-Esto solo descarga los mapas de DLC. No puedes jugar el juego solo con estos archivos. Si quieres descargar el juego, entonces [lee arriba](#installing-the-base-game-bo1)!  
+Esto solo descarga los mapas de DLC. No puedes jugar el juego solo con estos archivos. Si quieres descargar el juego, entonces [lee arriba](#instalación-del-juego-base-bo1)!  
 Ten en cuenta que si un servidor rota sus mapas a uno de DLC y no los tienes instalados, el juego te expulsará, así que si puedes instalarlos, hazlo.  
 
 </Alert>
