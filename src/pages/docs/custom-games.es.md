@@ -62,7 +62,7 @@ Te recomendamos buscar "nombre de tu enrutador + habilitar UPnP" en Google o bus
 
 ### ¿Cómo redirigir puertos?
 
-Para alojar una partida privada sin UPnP o cuando tus amigos no pueden unirse de forma automática, necesitas realizar una redirección de puertos (consulta [¿Qué es redirigir puertos?](#¿qué-es-redirigir-puertos)).  
+Para alojar una partida privada sin UPnP o cuando tus amigos no pueden unirse de forma automática, necesitas realizar una redirección de puertos (consulta [¿Qué es redirigir puertos?](#qué-es-redirigir-puertos)).  
 Dado que cada enrutador es diferente, no podemos proporcionar una guía para cada uno. Te recomendamos buscar en Google/Youtube "nombre de tu enrutador + redirigir puertos" o "nombre de tu [ISP](https://es.wikipedia.org/wiki/Proveedor_de_servicios_de_Internet) + redirigir puertos".
 
 Puedes crear una regla de rango de puertos, por ejemplo, del 1000 al 1005, lo cual abrirá todos los puertos del 1000 al 1005, incluyendo el 1000 y el 1005, o puedes crear una regla para cada puerto necesario, el resultado es el mismo.  
@@ -115,7 +115,7 @@ Tu amigo(s) ahora puede(n) aceptar la invitación.
 Primero, asegúrate de haber seguido los pasos correctamente.
 A continuación, puedes intentar dejar que otro amigo te invite a ti/otros jugadores.
 
-Si aún no funciona, sin importar lo que hagas, tendrás que redirigir el puerto `3074` (UDP) en tu enrutador (consulta [Cómo redirigir puertos](#¿cómo-redirigir-puertos)).
+Si aún no funciona, sin importar lo que hagas, tendrás que redirigir el puerto `3074` (UDP) en tu enrutador (consulta [Cómo redirigir puertos](#cómo-redirigir-puertos)).
 Una vez hecho esto, puedes reiniciar tu juego e invitar a tu amigo(s) nuevamente siguiendo las instrucciones anteriores.
 
 ## IW5
@@ -131,7 +131,7 @@ Inicia una partida privada y haz que tu amigo se una a ti siguiendo estos pasos:
 
 ### **Si UPnP está deshabilitado / no funciona**
 
-- Redirige el puerto `27016` (UDP) en tu enrutador (consulta [Cómo redirigir puertos](#¿cómo-redirigir-puertos)).
+- Redirige el puerto `27016` (UDP) en tu enrutador (consulta [Cómo redirigir puertos](#cómo-redirigir-puertos)).
 - [Agrega el puerto a la lista blanca en el firewall de Windows](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html).
 - Asegúrate de que nada bloquee la conexión (el firewall de tu enrutador, el firewall de tu antivirus, si tienes alguno, etc.).
 - Una vez que hayas realizado esos pasos, abre tu juego e inicia una partida privada. **(Los grupos no funcionarán)**.
@@ -176,7 +176,7 @@ Para esto, lee [Si UPnP sigue deshabilitado o no puedes conectar a pesar de tene
 
 ### **Si UPnP está desactivado**
 
-- Habilita UPnP (consulta [Cómo habilitar UPnP](#¿cómo-habilitar-upnp))
+- Habilita UPnP (consulta [Cómo habilitar UPnP](#cómo-habilitar-upnp))
 
 - Si UPnP está habilitado, sigue las [instrucciones anteriores](#si-upnp-está-habilitado).
   Si no lo está, sigue las [instrucciones a continuación](#si-upnp-continúa-desactivado-o-no-puedes-conectar-a-pesar-de-estar-habilitado).
@@ -185,7 +185,7 @@ Para esto, lee [Si UPnP sigue deshabilitado o no puedes conectar a pesar de tene
 
 ### **Si UPnP continúa desactivado o no puedes conectar a pesar de estar habilitado**
 
-- Abre los siguientes puertos en tu enrutador: `28960-28961` (UDP) (Consulta [Cómo redirigir puertos](#¿cómo-redirigir-puertos))
+- Abre los siguientes puertos en tu enrutador: `28960-28961` (UDP) (Consulta [Cómo redirigir puertos](#cómo-redirigir-puertos))
 - [Añade estos puertos a la lista blanca del firewall de Windows](https://www.tomshardware.com/news/how-to-open-firewall-ports-in-windows-10,36451.html)
 - Asegúrate de que nada bloquee la conexión (el firewall de tu enrutador, el firewall del antivirus, etc.)
 - Una vez completados estos pasos, abre el juego y comienza una partida privada. **(Las partidas en grupo no funcionarán)**
@@ -225,7 +225,7 @@ Para jugar con amigos en T5 Zombies, puedes invitarlos mientras estás en un lob
 Asegúrate de haber seguido los pasos correctamente.  
 Luego, puedes intentar que otro amigo te invite a ti/los otros jugadores.
 
-Si aún no funciona, sin importar lo que hagas, entonces tendrás que redirigir el puerto `3074` (UDP) en tu enrutador (consulta [Cómo realizar la redirección de puertos](#¿cómo-redirigir-puertos)).
+Si aún no funciona, sin importar lo que hagas, entonces tendrás que redirigir el puerto `3074` (UDP) en tu enrutador (consulta [Cómo realizar la redirección de puertos](#cómo-redirigir-puertos)).
 Una vez hecho esto, puedes reiniciar tu juego e invitar a tus amigo(s) nuevamente siguiendo las instrucciones anteriores.
 
 ## Notas adicionales
