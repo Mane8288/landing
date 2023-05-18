@@ -467,11 +467,11 @@ If you get this error then the folder that you selected during the setup doesn't
 ![Invalid Game Directory](/images/docs/install/vlwamKe.png)
 
 If you get this error then this means you selected your entire disk instead of the game folder.  
-`C:\` is not your World at War folder.  
+`C:\` is not your Black Ops 1 folder.  
 
 ![img](/images/docs/install/error-401.png)
 
-In both cases, the way to fix this issue is to click on Game settings in the launcher and to select the folder that contains the World at War files.  
+In both cases, the way to fix this issue is to click on Game settings in the launcher and to select the folder that contains the Black Ops files.  
 If you can't find it then read the [guide from the start](#t5-black-ops-1) again.
 
 ![img](/images/docs/install/MnkAcr8.png)
