@@ -6,7 +6,7 @@ Plutonium es lo que se conoce como un falso positivo (tu antivirus piensa que Pl
 
 ## **¿Por qué está sucediendo esto?**
 
-Plutonium está modificando los juegos en memoria, al igual que un virus manipularía otros programas, lo que provoca esta detección falsa.
+Plutonium está modificando la memoria de los juegos, al igual que un virus manipularía otros programas, lo que provoca esta detección falsa.
 
 ---
 
